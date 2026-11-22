@@ -55,7 +55,7 @@ class _DataTableScreenState extends State<DataTableScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Vehicle Management')),
+      appBar: AppBar(title: const Text('Car Inventory')),
       body: SingleChildScrollView(
         child: DataTable(
           sortColumnIndex: sortColumnIndex,

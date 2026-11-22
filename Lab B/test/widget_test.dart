@@ -5,7 +5,7 @@ void main() {
   testWidgets('DataTable displays car records', (WidgetTester tester) async {
     await tester.pumpWidget(const MyApp());
 
-    expect(find.text('Car Price List'), findsOneWidget);
+    expect(find.text('Car Inventory'), findsOneWidget);
 
     expect(find.text('Car Make'), findsOneWidget);
     expect(find.text('Model'), findsOneWidget);
